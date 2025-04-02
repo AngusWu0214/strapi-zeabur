@@ -14,7 +14,15 @@ module.exports = [
       },
     },
   },
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['https://bizdev.medialand.com.tw', 'http://localhost:5173'], // ✅ 換成你自己的網域
+      methods: ['GET', 'POST', 'PUT', 'DELETE'],
+      headers: '*',
+      credentials: true,
+    },
+  },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
