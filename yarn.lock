@@ -2972,7 +2972,7 @@ cloudinary-core@^2.13.0:
   resolved "https://registry.npmjs.org/cloudinary-core/-/cloudinary-core-2.13.1.tgz"
   integrity sha512-z53GPNWnvU0Zi+ns8CIVbZBfj7ps/++zDvwIyiFuq5p1MoK+KUCg0k5mBceDDHTnx1gHmHUd9aohS+gDxPNt6w==
 
-cloudinary@^1.41.0:
+cloudinary@^1.14.0, cloudinary@^1.41.0:
   version "1.41.3"
   resolved "https://registry.npmjs.org/cloudinary/-/cloudinary-1.41.3.tgz"
   integrity sha512-4o84y+E7dbif3lMns+p3UW6w6hLHEifbX/7zBJvaih1E9QNMZITENQ14GPYJC4JmhygYXsuuBb9bRA3xWEoOfg==
@@ -8529,6 +8529,14 @@ statuses@^2.0.1, statuses@2.0.1:
   version "1.5.0"
   resolved "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz"
   integrity sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==
+
+strapi-provider-upload-cloudinary@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.npmjs.org/strapi-provider-upload-cloudinary/-/strapi-provider-upload-cloudinary-3.1.4.tgz"
+  integrity sha512-kzdSzKKhiVJy/HwMC3+//ZQnR7sGhuujLRRNCcy1wHRVK2FHCxkIt+QET3jSMs/tL71GJGRowELvIatc+O8+/A==
+  dependencies:
+    cloudinary "^1.14.0"
+    into-stream "^5.1.0"
 
 stream-chain@^2.2.5, stream-chain@2.2.5:
   version "2.2.5"

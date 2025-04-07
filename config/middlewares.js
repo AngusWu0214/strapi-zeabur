@@ -17,7 +17,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://bizdev.medialand.com.tw', 'http://localhost:5173', 'https://mlfrontendtoolsstrapi.zeabur.app'], // ✅ 換成你自己的網域
+      origin: ['https://bizdev.medialand.com.tw', 'http://localhost:5173', 'http://localhost:1337', 'https://mlfrontendtoolsstrapi.zeabur.app'], // ✅ 換成你自己的網域
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
       headers: '*',
       credentials: true,
